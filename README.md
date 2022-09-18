@@ -11,6 +11,7 @@ Study repository of E2E tests with Node.js and Prima.
 - DevDependencies:
   - @swc/core;
   - @swc/jest;
+  - @types/express;
   - @types/jest;
   - @types/node;
   - @types/supertest;
@@ -18,3 +19,14 @@ Study repository of E2E tests with Node.js and Prima.
   - prisma;
   - supertest;
   - typescript;
+
+### EXPRESS SERVER
+
+```bash
+...
+src
+  server
+    app.ts
+    server.ts
+...
+```
