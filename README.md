@@ -48,3 +48,9 @@ npm run dev
 ```bash
 npm start
 ```
+
+### LOCAL DEVELOPMENT
+
+- Database:
+  - dev
+    - Lesson
