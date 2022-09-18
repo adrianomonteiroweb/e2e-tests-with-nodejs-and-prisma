@@ -4,6 +4,9 @@ Study repository of E2E tests with Node.js and Prima.
 
 ### TECHNOLOGIES
 
+- NPM;
+- Node.js.
+
 - Dependencies:
 
   - Express.
@@ -16,17 +19,32 @@ Study repository of E2E tests with Node.js and Prima.
   - @types/node;
   - @types/supertest;
   - jest;
+  - nodemon;
   - prisma;
   - supertest;
-  - typescript;
+  - typescript.
 
 ### EXPRESS SERVER
 
 ```bash
 ...
-src
-  server
+src /
+  server /
     app.ts
     server.ts
 ...
+```
+
+### RUNNING THE APPLICATION
+
+- Development
+
+```bash
+npm run dev
+```
+
+- Production
+
+```bash
+npm start
 ```
