@@ -1,6 +1,6 @@
 # E2E TESTS WITH NODEJS AND PRISMA
 
-Repositório de estudos de testes E2E no Node.js e uso do Prisma.
+Study repository of E2E tests with Node.js and Prima.
 
 ### TECHNOLOGIES
 
