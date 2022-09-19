@@ -28,6 +28,19 @@ Study repository of E2E tests with Node.js and Prima.
 
 - Abstract communication with the database in repositories.
 
+### DATABASE
+
+```bash
+...
+src/
+  database/
+    prisma.ts
+  depositories/
+  server/
+  services/
+...
+```
+
 ### REPOSITORES
 
 - Interfaces
@@ -37,14 +50,43 @@ Study repository of E2E tests with Node.js and Prima.
 - Repositories
   - PrismaLessonsRepository;
 
+```bash
+...
+src/
+  database/
+  depositories/
+    prisma/
+      PrismaLessonsRepository.ts
+    ILessonsRepository.ts
+  server/
+  services/
+...
+```
+
 ### EXPRESS SERVER
 
 ```bash
 ...
-src /
-  server /
+src/
+  database/
+  depositories/
+  server/
     app.ts
     server.ts
+  services/
+...
+```
+
+### SERVICES
+
+```bash
+...
+src/
+  database/
+  depositories/
+  server/
+  services/
+    CreateLesson.ts
 ...
 ```
 
