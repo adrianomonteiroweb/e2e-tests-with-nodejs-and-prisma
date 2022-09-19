@@ -24,6 +24,15 @@ Study repository of E2E tests with Node.js and Prima.
   - supertest;
   - typescript.
 
+# REPOSITORY PATTERN
+
+- Abstract communication with the database in repositories.
+
+### REPOSITORES
+
+- Interfaces
+  - ILessonsRepository;
+
 ### EXPRESS SERVER
 
 ```bash
@@ -51,6 +60,6 @@ npm start
 
 ### LOCAL DEVELOPMENT
 
-- Database:
-  - dev
+- Database: dev
+  - Models:
     - Lesson
