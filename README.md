@@ -31,7 +31,11 @@ Study repository of E2E tests with Node.js and Prima.
 ### REPOSITORES
 
 - Interfaces
+
   - ILessonsRepository;
+
+- Repositories
+  - PrismaLessonsRepository;
 
 ### EXPRESS SERVER
 

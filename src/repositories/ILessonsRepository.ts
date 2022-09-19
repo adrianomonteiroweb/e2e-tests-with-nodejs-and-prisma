@@ -1,4 +1,4 @@
-interface CreateLessonData {
+export interface CreateLessonData {
   title: string;
   description?: string;
 }
