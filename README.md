@@ -1,6 +1,6 @@
 # E2E TESTS WITH NODEJS AND PRISMA
 
-Study repository of E2E tests with Node.js and Prima.
+Study repository of E2E tests and units tests with Node.js and Prisma.
 
 ### TECHNOLOGIES
 
