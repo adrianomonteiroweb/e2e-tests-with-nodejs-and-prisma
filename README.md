@@ -9,7 +9,8 @@ Study repository of E2E tests with Node.js and Prima.
 
 - Dependencies:
 
-  - Express.
+  - Express;
+  - prisma/client.
 
 - DevDependencies:
   - @swc/core;
@@ -22,9 +23,12 @@ Study repository of E2E tests with Node.js and Prima.
   - nodemon;
   - prisma;
   - supertest;
+  - ts-node;
   - typescript.
 
-# REPOSITORY PATTERN
+# PATTERNS
+
+### REPOSITORY PATTERN, IN-MEMORY DATABASE AND COMMAND/QUERY SEGREGATION
 
 - Abstract communication with the database in repositories.
 
@@ -86,6 +90,7 @@ src/
   depositories/
   server/
   services/
+    createLesson.spec.ts
     CreateLesson.ts
 ...
 ```
@@ -102,6 +107,26 @@ npm run dev
 
 ```bash
 npm start
+```
+
+### RUNNING TESTS
+
+- The tests are using an in-memory database so there is no knowledge of external layers in unit tests.
+
+```bash
+...
+prisma/
+src/
+tests/
+  repositories/
+    inMemoryLessonsRepository.ts
+...
+```
+
+- All tests
+
+```bash
+npm test
 ```
 
 ### LOCAL DEVELOPMENT
