@@ -10,6 +10,7 @@ Study repository of E2E tests and units tests with Node.js and Prisma.
 - Dependencies:
 
   - Express;
+  - dotenv;
   - prisma/client.
 
 - DevDependencies:
@@ -19,11 +20,13 @@ Study repository of E2E tests and units tests with Node.js and Prisma.
   - @types/jest;
   - @types/node;
   - @types/supertest;
+  - @types/pg;
   - jest;
   - nodemon;
   - prisma;
   - supertest;
   - ts-node;
+  - pg;
   - typescript.
 
 # PATTERNS
@@ -129,8 +132,25 @@ tests/
 npm test
 ```
 
+- E2e tests
+
+```bash
+npm run test:e2e
+```
+
 ### LOCAL DEVELOPMENT
 
 - Database: dev
+
   - Models:
     - Lesson
+
+- .env
+
+  - Rename the ".env.example" file to ".env" and replace the necessary values such as:
+
+  example: myuser to admin
+
+  - And, the ".env.testing.example" file to ".env.testing" and replace the database testing values such as:
+
+  example: myuser to admin
